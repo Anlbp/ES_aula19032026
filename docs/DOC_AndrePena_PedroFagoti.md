@@ -1,7 +1,5 @@
 # Documento de Modelagem - FitPass Gym Management
 
----
-
 # 1. Diagrama de Casos de Uso (Descrição Geral)
 
 **Atores:**
@@ -24,11 +22,7 @@
 - UC09 - Emitir Relatórios  
 - UC10 - Enviar Notificações  
 
----
-
 # 2. Casos de Uso + Diagramas de Atividade
-
----
 
 ## UC01 - Realizar Login
 
@@ -55,6 +49,7 @@
 **RNF:** RNF02  
 
 ### Diagrama de Atividade
+```plantuml
 @startuml
 start
 :Usuário informa e-mail e senha;
